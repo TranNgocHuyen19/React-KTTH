@@ -5,18 +5,21 @@ import { Header } from "../components/Header"
 import Footer from "../components/Footer"
 import Navigation from "../components/Navigation"
 import { Banner } from "../components/Banner"
+import MenuLeft from "../components/MenuLeft"
 
 export default function Home() {
-  return (
-    <div className="min-h-screen flex flex-col">
-      <TopBar/>
+    return (
+        <div className="min-h-screen flex flex-col">
+            <TopBar />
 
-      <Header/>
+            <Header />
 
-      <Navigation/>
-        <Banner/>
+            <Navigation />
+            <Banner />
+            <MenuLeft />
 
-      <Footer/>
-    </div>
-  )
+
+            <Footer />
+        </div>
+    )
 }
