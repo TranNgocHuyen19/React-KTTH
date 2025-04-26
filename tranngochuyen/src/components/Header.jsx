@@ -5,8 +5,8 @@ export const Header = () => {
         <div className="bg-[#a7c7e7] py-4">
         <div className="container mx-auto flex flex-col md:flex-row items-center justify-center">
           <div className="flex-shrink-0 mb-4 md:mb-0 md:mr-6">
-            <Image
-              src={'image.png'}
+            <img
+              src={'logo.png'}
               alt="University Logo"
               width={150}
               height={100}

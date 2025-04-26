@@ -45,14 +45,14 @@ const newsCategories = [
     items: [
       {
         id: "5",
-        title: "AVEVA tài trợ gói phần mềm trị giá 180.000 đô Mỹ cho Đại học Công nghiệp...",
+        title: "AVEVA tài trợ gói phần mềm trị giá 180.000 đô Mỹ cho Đại học...",
         date: "25-04-2025",
         isNew: true,
         image: "news1.jpg",
       },
       {
         id: "6",
-        title: "Hội nghị khoa học quốc tế BAIC 2025 lần 2 tại IUH - Sức mạnh AI trong...",
+        title: "Hội nghị khoa học quốc tế BAIC 2025 lần 2 tại IUH - Sức..",
         date: "22-04-2025",
         isNew: true,
       },
@@ -65,13 +65,13 @@ const newsCategories = [
     items: [
       {
         id: "7",
-        title: "Sôi nổi hoạt động Tuần lễ giao lưu văn hóa, khoa học sinh viên quốc...",
+        title: "Sôi nổi hoạt động Tuần lễ giao lưu văn hóa, khoa học...",
         date: "24-03-2025",
         image: "news2.jpg",
       },
       {
         id: "8",
-        title: "Đại học Công nghiệp TP. HCM tham gia dự án Green Edu Seeds của quỹ Erasmus",
+        title: "Đại học Công nghiệp TP. HCM tham gia dự án Green Edu Seeds",
         date: "19-03-2025",
       },
     ],
@@ -80,8 +80,8 @@ const newsCategories = [
 
 export default function NewsSection() {
   return (
-    <div className="container mx-auto py-4">
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <div className="container mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mb-5">
         {newsCategories.map((category) => (
           <NewsPanel key={category.id} category={category} />
         ))}

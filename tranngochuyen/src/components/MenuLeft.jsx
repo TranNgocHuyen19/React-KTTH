@@ -1,5 +1,6 @@
 "use client"
 
+import { ChevronRight } from "lucide-react"
 import { useState } from "react"
 
 
@@ -66,7 +67,7 @@ export default function SidebarMenu() {
   const [hoveredItem, setHoveredItem] = useState(null)
 
   return (
-    <div className="w-[200px]">
+    <div className="w-[300px]">
       {/* Sidebar Header */}
       <div className="bg-[#0047AB] text-white p-3">
         <h3 className="font-bold text-center">CƠ CẤU TỔ CHỨC</h3>
@@ -88,7 +89,7 @@ export default function SidebarMenu() {
               <span className={`font-medium ${hoveredItem === item.id ? "text-red-600" : "text-[#003399]"}`}>
                 {item.title}
               </span>
-              {/* <ChevronRight className="w-5 h-5 text-gray-500" /> */}
+             <div className="bg-gray-400 p-1 rounded-sm flex justify-center items-center"> <ChevronRight className="w-5 h-5 text-white" /></div>
             </div>
 
             {/* Submenu (appears on hover) */}

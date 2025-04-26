@@ -12,14 +12,13 @@ import VideoBox from "../components/VideoBox"
 
 export default function Home() {
     return (
-        <div className="min-h-screen flex flex-col">
-            <TopBar />
-
+       <div className="w-full">
+        <TopBar className='w-full'/>
+        <div className="max-w-7xl mx-auto flex flex-col">
             <Header />
-
             <Navigation />
             <Banner />
-            <div className="flex gap-5">
+            <div className="flex gap-5 my-5">
                 <MenuLeft />
                 <NewsSection />
             </div>
@@ -33,9 +32,8 @@ export default function Home() {
                     viewAllLink="/videos"
                 />
             </div>
-
-
             <Footer />
+        </div>
         </div>
     )
 }

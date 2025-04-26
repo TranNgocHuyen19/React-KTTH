@@ -21,8 +21,8 @@ export default function Footer() {
               Email: <a href="mailto:dhcn@iuh.edu.vn" className="text-blue-700 hover:underline">dhcn@iuh.edu.vn</a>
             </p>
             <div className="mt-4">
-              <Image 
-                src="/placeholder.svg?height=80&width=140" 
+              <img 
+                src={"logo.png"} 
                 alt="Industrial University of Ho Chi Minh City Logo" 
                 width={140} 
                 height={80} 
