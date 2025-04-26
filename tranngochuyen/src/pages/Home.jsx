@@ -7,6 +7,7 @@ import Navigation from "../components/Navigation"
 import { Banner } from "../components/Banner"
 import MenuLeft from "../components/MenuLeft"
 import NewsSection from "../components/Section"
+import CampusBox from "../components/CampusBox"
 
 export default function Home() {
     return (
@@ -20,6 +21,9 @@ export default function Home() {
             <div className="flex gap-5">
             <MenuLeft />
             <NewsSection/>
+            </div>
+            <div className="grid grid-cols-3 gap-3 bg-[#0047AB] p-4">
+                <CampusBox title={'PHÂN HIỆU QUÃNG NGÃI'} imageSrc={"quangngai.jpg"}/>
             </div>
 
 
