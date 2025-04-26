@@ -1,5 +1,6 @@
 import { RightOutlined } from "@ant-design/icons"
 import { Image } from "antd"
+import { ChevronRight } from "lucide-react"
 export const NewsPanel = ({ category }) => {
     return (
       <div className="border border-gray-300">
@@ -24,7 +25,7 @@ export const NewsPanel = ({ category }) => {
           <div className="">
             {category.items.map((item) => (
               <div key={item.id} className="flex">
-                <RightOutlined className="text-red-600 mt-1 mr-2 flex-shrink-0" />
+                <ChevronRight  className="text-red-600 mt-1 mr-2 flex-shrink-0" />
                 <div>
                   <a href="#" className="text-sm hover:text-blue-600 hover:underline">
                     {item.title}

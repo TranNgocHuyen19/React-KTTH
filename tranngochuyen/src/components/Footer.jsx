@@ -1,5 +1,6 @@
 import { FacebookOutlined, TwitterOutlined } from "@ant-design/icons"
 import { Image } from "antd"
+import { Linkedin } from "lucide-react"
 
 export default function Footer() {
   return (
@@ -20,15 +21,7 @@ export default function Footer() {
             <p className="mb-4">
               Email: <a href="mailto:dhcn@iuh.edu.vn" className="text-blue-700 hover:underline">dhcn@iuh.edu.vn</a>
             </p>
-            <div className="mt-4">
-              <img 
-                src={"logo.png"} 
-                alt="Industrial University of Ho Chi Minh City Logo" 
-                width={140} 
-                height={80} 
-                className="h-auto"
-              />
-            </div>
+            
           </div>
 
           {/* Other Activities */}
@@ -98,6 +91,15 @@ export default function Footer() {
         {/* Stats and Social Media */}
         <div className="mt-8 pt-4 border-t border-gray-300">
           <div className="flex flex-col md:flex-row justify-between items-center">
+          <div className="mt-4 flex items-center justify-center">
+              <img 
+                src={"logo.png"} 
+                alt="Industrial University of Ho Chi Minh City Logo" 
+                width={200} 
+                height={50} 
+                className="h-auto"
+              />
+            </div>
             <div className="flex flex-col md:flex-row gap-4 mb-4 md:mb-0">
               <div className="flex items-center">
                 <span className="mr-2">🔍</span>
@@ -120,8 +122,8 @@ export default function Footer() {
               <a href="#" className="text-blue-400 hover:text-blue-600">
                 <TwitterOutlined className="text-2xl" />
               </a>
-              <a href="#" className="text-blue-600 hover:text-blue-800">
-                {/* <aedinOutlined className="text-2xl" /> */}
+              <a href="#" className="text-blue-400 hover:text-blue-600">
+                <Linkedin className="text-2xl" />
               </a>
             </div>
           </div>

@@ -16,7 +16,7 @@ const newsCategories = [
       },
       {
         id: "2",
-        title: "Thông báo tuyển chọn nam sinh tốt nghiệp đại học cho các trường quân đội...",
+        title: "Thông báo tuyển chọn nam sinh tốt nghiệp đại học cho các...",
         date: "21-04-2025",
         isNew: true,
       },
@@ -28,7 +28,7 @@ const newsCategories = [
     items: [
       {
         id: "3",
-        title: "Thông báo tuyển sinh đào tạo liên thông từ trình độ cao đẳng lên trình...",
+        title: "Thông báo tuyển sinh đào tạo liên thông từ trình độ cao...",
         date: "28-03-2025",
       },
       {
