@@ -6,6 +6,7 @@ import Footer from "../components/Footer"
 import Navigation from "../components/Navigation"
 import { Banner } from "../components/Banner"
 import MenuLeft from "../components/MenuLeft"
+import NewsSection from "../components/Section"
 
 export default function Home() {
     return (
@@ -16,7 +17,10 @@ export default function Home() {
 
             <Navigation />
             <Banner />
+            <div className="flex gap-5">
             <MenuLeft />
+            <NewsSection/>
+            </div>
 
 
             <Footer />
