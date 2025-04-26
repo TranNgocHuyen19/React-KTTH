@@ -16,12 +16,12 @@ export const NewsPanel = ({ category }) => {
                 src={category.items[0].image || "/placeholder.svg"}
                 alt={category.items[0].title}
                 width={350}
-                height={200}
+                height={100}
                 className="w-full h-auto object-cover"
               />
             </div>
           )}
-          <div className="space-y-3">
+          <div className="">
             {category.items.map((item) => (
               <div key={item.id} className="flex">
                 <RightOutlined className="text-red-600 mt-1 mr-2 flex-shrink-0" />

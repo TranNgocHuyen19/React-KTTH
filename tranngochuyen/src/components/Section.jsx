@@ -22,7 +22,60 @@ const newsCategories = [
       },
     ],
   },
-
+  {
+    id: "admissions",
+    title: "TUYỂN SINH",
+    items: [
+      {
+        id: "3",
+        title: "Thông báo tuyển sinh đào tạo liên thông từ trình độ cao đẳng lên trình...",
+        date: "28-03-2025",
+      },
+      {
+        id: "4",
+        title: "Thông báo v/v tuyển sinh đại học văn bằng hai, đợt 1 năm 2025",
+        date: "20-03-2025",
+      },
+    ],
+  },
+  {
+    id: "news",
+    title: "TIN TỨC - SỰ KIỆN",
+    hasImage: true,
+    items: [
+      {
+        id: "5",
+        title: "AVEVA tài trợ gói phần mềm trị giá 180.000 đô Mỹ cho Đại học Công nghiệp...",
+        date: "25-04-2025",
+        isNew: true,
+        image: "news1.jpg",
+      },
+      {
+        id: "6",
+        title: "Hội nghị khoa học quốc tế BAIC 2025 lần 2 tại IUH - Sức mạnh AI trong...",
+        date: "22-04-2025",
+        isNew: true,
+      },
+    ],
+  },
+  {
+    id: "international",
+    title: "HỢP TÁC QUỐC TẾ",
+    hasImage: true,
+    items: [
+      {
+        id: "7",
+        title: "Sôi nổi hoạt động Tuần lễ giao lưu văn hóa, khoa học sinh viên quốc...",
+        date: "24-03-2025",
+        image: "news2.jpg",
+      },
+      {
+        id: "8",
+        title: "Đại học Công nghiệp TP. HCM tham gia dự án Green Edu Seeds của quỹ Erasmus",
+        date: "19-03-2025",
+      },
+    ],
+  },
 ]
 
 export default function NewsSection() {
