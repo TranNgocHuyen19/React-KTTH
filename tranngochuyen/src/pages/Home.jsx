@@ -4,6 +4,7 @@ import { TopBar } from "../components/TopBar"
 import { Header } from "../components/Header"
 import Footer from "../components/Footer"
 import Navigation from "../components/Navigation"
+import { Banner } from "../components/Banner"
 
 export default function Home() {
   return (
@@ -13,7 +14,7 @@ export default function Home() {
       <Header/>
 
       <Navigation/>
-
+        <Banner/>
 
       <Footer/>
     </div>
